@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1e1200"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentRight="true"
+        android:layout_margin="15dp"
+        android:background="@drawable/battery" />
+
+    <TextView
+        android:id="@+id/batterylevel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="325dp"
+        android:layout_marginTop="29dp"
+        android:text="23"
+        android:textColor="#fff"
+        android:textSize="14dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/text_view_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:text="Date"
+        android:textColor="#fff"
+        android:textSize="14dp" />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="630dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="90dp">
+
+
+        <ImageButton
+            android:id="@+id/torchbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/torch_off">
+
+
+        </ImageButton>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="530dp"
+            android:textStyle="bold"
+            android:fontFamily="@font/amiko"
+            android:text="ON/OFF"
+            android:textColor="#fff"
+            android:textSize="15dp" />
+
+
+    </RelativeLayout>
+
+
+
+    <ImageButton
+        android:id="@+id/blink"
+        android:layout_width="65dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="345dp"
+        android:layout_marginTop="765dp"
+        android:background="@drawable/meow" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="785dp"
+        android:layout_marginLeft="305dp"
+        android:text="Blink"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:fontFamily="@font/amiko"
+        android:textSize="15dp" />
+
+    <ImageView
+        android:layout_width="220dp"
+        android:layout_height="380dp"
+        android:background="@drawable/uii"
+
+        android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>
